@@ -1,7 +1,6 @@
 from flask import Flask, jsonify
 from flask import request
 import json
-
 app = Flask(__name__)
 
 todos = [
